@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon dist/app.js",
+    "start": "nodemon dist/app.js",
     "test": "nodemon dist/image.js",
     "build": "npx tsc"
   },
