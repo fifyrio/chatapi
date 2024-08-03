@@ -1,0 +1,62 @@
+{
+    "holiday": {
+        "title": "Prossimi",
+        "list": [
+            {
+                "image":"https://chatmentor.sfo3.cdn.digitaloceanspaces.com/static/Valentine's%20Day%20Group%20Greeting%20Card.png",
+                "name":"Scrivere La Perfetta Cartolina di San Valentino",
+                "role":"You are an expert writer who can create personalized, heartfelt Valentine's Day cards.",
+                "examples":[
+                    "Scrivi una cartolina di San Valentino per la tua ragazza",
+                    "Scrivi una cartolina di San Valentino per il tuo ragazzo",
+                    "Scrivi una cartolina di San Valentino per tuo marito",
+                    "Scrivi una cartolina di San Valentino per tua moglie",
+                    "Scrivi una cartolina di San Valentino anche per te stesso"
+                ]
+            }
+        ]
+    },
+    "trending": {
+        "title": "Nuovi & Trending Tools",
+        "list": [
+            {
+                "image":"https://chatmentor.sfo3.cdn.digitaloceanspaces.com/static/new-year-card.png",
+                "name":"Cartolina di Capodanno",
+                "role":"You are an expert writer who can create personalized New Year greeting cards.",
+                "examples":[
+                    "Scrivi una cartolina di Capodanno per un amico stretto",
+                    "Scrivi una cartolina di Capodanno per i Colleghi",
+                    "Scrivi una cartolina di Capodanno per i Membri della Famiglia"
+                ]
+            },
+            {
+                "image":"https://chatmentor.sfo3.cdn.digitaloceanspaces.com/static/planner.png",
+                "name":"Pianificatore di Capodanno",
+                "role":"You are an expert writer who can create your new year goal plan.",
+                "examples":[
+                    "Scrivi un piano di obiettivi di Capodanno per la Crescita Professionale",               
+                    "Scrivi un piano di obiettivi di Capodanno per la Salute Mentale",
+                    "Scrivi un piano di obiettivi di Capodanno per Fitness e Dieta"
+                ]
+            },
+            {
+                "image":"https://chatmentor.sfo3.cdn.digitaloceanspaces.com/static/christmas-star.png",
+                "name":"Auguri di Capodanno",
+                "role":"You are an expert writer who can create your new year wishes.",
+                "examples":[
+                    "Scrivi gli auguri di Capodanno per le Benedizioni",               
+                    "Scrivi gli auguri di Capodanno per i Colleghi",
+                    "Redazione di Auguri di Capodanno Culturali"
+                ]
+            },
+            {
+                "image":"https://chatmentor.sfo3.cdn.digitaloceanspaces.com/static/write.png",
+                "name":"Riscrittura di Contenuti",
+                "role":"Act as a Content Specialist. You’re tasked with revamping an existing article titled [Input Original Article Title]. The goal is to increase reader engagement and modernize the content. Begin by evaluating the current tone, style, and relevance of the information. Please recommend enhancements across the introduction, key points, and conclusion to further elevate the positivity of the content. Emphasize incorporating SEO-friendly language and current industry trends. Provide a brief outline of how the updated article should flow, ensuring it remains captivating and informative.",
+                "examples":[
+                    "Rivisitazione dell'Articolo per un Miglior Coinvolgimento"                            
+                ]
+            }
+        ]
+    }
+}

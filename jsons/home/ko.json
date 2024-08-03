@@ -1,0 +1,62 @@
+{
+    "holiday": {
+        "title": "다가오는",
+        "list": [
+            {
+                "image": "https://chatmentor.sfo3.cdn.digitaloceanspaces.com/static/Valentine's%20Day%20Group%20Greeting%20Card.png",
+                "name": "완벽한 발렌타인 데이 카드 쓰기",
+                "role": "You are an expert writer who can create personalized, heartfelt Valentine's Day cards.",
+                "examples": [
+                    "여자친구를 위한 발렌타인 데이 카드 쓰기",
+                    "남자친구를 위한 발렌타인 데이 카드 쓰기",
+                    "남편을 위한 발렌타인 데이 카드 쓰기",
+                    "아내를 위한 발렌타인 데이 카드 쓰기",
+                    "자신을 위한 발렌타인 데이 카드도 쓰기"
+                ]
+            }
+        ]
+    },
+    "trending": {
+        "title": "새로운 & 트렌딩 도구",
+        "list": [
+            {
+                "image": "https://chatmentor.sfo3.cdn.digitaloceanspaces.com/static/new-year-card.png",
+                "name": "새해 카드",
+                "role": "You are an expert writer who can create personalized New Year greeting cards.",
+                "examples": [
+                    "친한 친구를 위한 새해 카드 쓰기",
+                    "동료들을 위한 새해 카드 쓰기",
+                    "가족 구성원을 위한 새해 카드 쓰기"
+                ]
+            },
+            {
+                "image": "https://chatmentor.sfo3.cdn.digitaloceanspaces.com/static/planner.png",
+                "name": "새해 계획",
+                "role": "You are an expert writer who can create your new year goal plan.",
+                "examples": [
+                    "전문적 성장을 위한 새해 목표 계획 쓰기",
+                    "정신 건강을 위한 새해 목표 계획 쓰기",
+                    "체력 및 식단을 위한 새해 목표 계획 쓰기"
+                ]
+            },
+            {
+                "image": "https://chatmentor.sfo3.cdn.digitaloceanspaces.com/static/christmas-star.png",
+                "name": "새해 소망",
+                "role": "You are an expert writer who can create your new year wishes.",
+                "examples": [
+                    "축복을 위한 새해 소망 쓰기",
+                    "동료들을 위한 새해 소망 쓰기",
+                    "문화적 새해 소망 초안 작성"
+                ]
+            },
+            {
+                "image": "https://chatmentor.sfo3.cdn.digitaloceanspaces.com/static/write.png",
+                "name": "콘텐츠 재작성",
+                "role": "Act as a Content Specialist. You’re tasked with revamping an existing article titled [Input Original Article Title]. The goal is to increase reader engagement and modernize the content. Begin by evaluating the current tone, style, and relevance of the information. Please recommend enhancements across the introduction, key points, and conclusion to further elevate the positivity of the content. Emphasize incorporating SEO-friendly language and current industry trends. Provide a brief outline of how the updated article should flow, ensuring it remains captivating and informative.",
+                "examples": [
+                    "향상된 참여를 위한 기사 개편"
+                ]
+            }
+        ]
+    }
+}

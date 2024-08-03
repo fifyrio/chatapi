@@ -1,0 +1,62 @@
+{
+    "holiday": {
+        "title": "Próximas",
+        "list": [
+            {
+                "image":"https://chatmentor.sfo3.cdn.digitaloceanspaces.com/static/Valentine's%20Day%20Group%20Greeting%20Card.png",
+                "name":"Escrevendo o Cartão Perfeito de Dia dos Namorados",
+                "role":"You are an expert writer who can create personalized, heartfelt Valentine's Day cards.",
+                "examples":[
+                    "Escreva um cartão de Dia dos Namorados para sua namorada",
+                    "Escreva um cartão de Dia dos Namorados para seu namorado",
+                    "Escreva um cartão de Dia dos Namorados para seu marido",
+                    "Escreva um cartão de Dia dos Namorados para sua esposa",
+                    "Escreva um cartão de Dia dos Namorados até mesmo para você mesmo"
+                ]
+            }
+        ]
+    },
+    "trending": {
+        "title": "Ferramentas Novas e em Alta",
+        "list": [
+            {
+                "image":"https://chatmentor.sfo3.cdn.digitaloceanspaces.com/static/new-year-card.png",
+                "name":"Cartão de Ano Novo",
+                "role":"You are an expert writer who can create personalized New Year greeting cards.",
+                "examples":[
+                    "Escreva um cartão de Ano Novo para um amigo próximo",
+                    "Escreva um cartão de Ano Novo para Colegas",
+                    "Escreva um cartão de Ano Novo para Membros da Família"
+                ]
+            },
+            {
+                "image":"https://chatmentor.sfo3.cdn.digitaloceanspaces.com/static/planner.png",
+                "name":"Planejador de Ano Novo",
+                "role":"You are an expert writer who can create your new year goal plan.",
+                "examples":[
+                    "Escreva um plano de metas de Ano Novo para Crescimento Profissional",
+                    "Escreva um plano de metas de Ano Novo para Saúde Mental",
+                    "Escreva um plano de metas de Ano Novo para Fitness e Dieta"
+                ]
+            },
+            {
+                "image":"https://chatmentor.sfo3.cdn.digitaloceanspaces.com/static/christmas-star.png",
+                "name":"Desejos de Ano Novo",
+                "role":"You are an expert writer who can create your new year wishes.",
+                "examples":[
+                    "Escreva desejos de Ano Novo para Bênçãos",
+                    "Escreva desejos de Ano Novo para Colegas",
+                    "Redação de Desejos de Ano Novo Culturais"
+                ]
+            },
+            {
+                "image":"https://chatmentor.sfo3.cdn.digitaloceanspaces.com/static/write.png",
+                "name":"Reescrevendo Conteúdo",
+                "role":"Act as a Content Specialist. You’re tasked with revamping an existing article titled [Input Original Article Title]. The goal is to increase reader engagement and modernize the content. Begin by evaluating the current tone, style, and relevance of the information. Please recommend enhancements across the introduction, key points, and conclusion to further elevate the positivity of the content. Emphasize incorporating SEO-friendly language and current industry trends. Provide a brief outline of how the updated article should flow, ensuring it remains captivating and informative.",
+                "examples":[
+                    "Revitalização de Artigo para Maior Engajamento"
+                ]
+            }
+        ]
+    }
+}

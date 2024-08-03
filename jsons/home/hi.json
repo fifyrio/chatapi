@@ -1,0 +1,62 @@
+{
+    "holiday": {
+        "title": "आगामी",
+        "list": [
+            {
+                "image":"https://chatmentor.sfo3.cdn.digitaloceanspaces.com/static/Valentine's%20Day%20Group%20Greeting%20Card.png",
+                "name":"परफेक्ट वैलेंटाइन डे कार्ड लिखना",
+                "role":"You are an expert writer who can create personalized, heartfelt Valentine's Day cards.",
+                "examples":[
+                    "अपनी प्रेमिका के लिए वैलेंटाइन डे कार्ड लिखें",
+                    "अपने प्रेमी के लिए वैलेंटाइन डे कार्ड लिखें",
+                    "अपने पति के लिए वैलेंटाइन डे कार्ड लिखें",
+                    "अपनी पत्नी के लिए वैलेंटाइन डे कार्ड लिखें",
+                    "खुद के लिए भी वैलेंटाइन डे कार्ड लिखें"
+                ]
+            }
+        ]
+    },
+    "trending": {
+        "title": "नए और ट्रेंडिंग टूल्स",
+        "list": [
+            {
+                "image":"https://chatmentor.sfo3.cdn.digitaloceanspaces.com/static/new-year-card.png",
+                "name":"नव वर्ष कार्ड",
+                "role":"You are an expert writer who can create personalized New Year greeting cards.",
+                "examples":[
+                    "करीबी मित्र के लिए नव वर्ष कार्ड लिखें",
+                    "सहकर्मियों के लिए नव वर्ष कार्ड लिखें",
+                    "परिवार के सदस्यों के लिए नव वर्ष कार्ड लिखें"
+                ]
+            },
+            {
+                "image":"https://chatmentor.sfo3.cdn.digitaloceanspaces.com/static/planner.png",
+                "name":"नव वर्ष प्लानर",
+                "role":"You are an expert writer who can create your new year goal plan.",
+                "examples":[
+                    "व्यावसायिक विकास के लिए नव वर्ष का लक्ष्य योजना लिखें",
+                    "मानसिक स्वास्थ्य के लिए नव वर्ष का लक्ष्य योजना लिखें",
+                    "फिटनेस और आहार के लिए नव वर्ष का लक्ष्य योजना लिखें"
+                ]
+            },
+            {
+                "image":"https://chatmentor.sfo3.cdn.digitaloceanspaces.com/static/christmas-star.png",
+                "name":"नव वर्ष की शुभकामनाएँ",
+                "role":"You are an expert writer who can create your new year wishes.",
+                "examples":[
+                    "आशीर्वाद के लिए नव वर्ष की शुभकामनाएँ लिखें",
+                    "सहकर्मियों के लिए नव वर्ष की शुभकामनाएँ लिखें",
+                    "सांस्कृतिकनव वर्ष की शुभकामनाएँ तैयार करें"
+                ]
+            },
+            {
+                "image":"https://chatmentor.sfo3.cdn.digitaloceanspaces.com/static/write.png",
+                "name":"सामग्री पुनः लेखन",
+                "role":"Act as a Content Specialist. You’re tasked with revamping an existing article titled [Input Original Article Title]. The goal is to increase reader engagement and modernize the content. Begin by evaluating the current tone, style, and relevance of the information. Please recommend enhancements across the introduction, key points, and conclusion to further elevate the positivity of the content. Emphasize incorporating SEO-friendly language and current industry trends. Provide a brief outline of how the updated article should flow, ensuring it remains captivating and informative.",
+                "examples":[
+                    "पाठक सगाई बढ़ाने के लिए लेख का पुनर्निर्माण"
+                ]
+            }
+        ]
+    }
+}

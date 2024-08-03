@@ -1,0 +1,62 @@
+{
+    "holiday": {
+        "title": "即將到來",
+        "list": [
+            {
+                "image":"https://chatmentor.sfo3.cdn.digitaloceanspaces.com/static/Valentine's%20Day%20Group%20Greeting%20Card.png",
+                "name":"寫出完美的情人節卡片",
+                "role":"You are an expert writer who can create personalized, heartfelt Valentine's Day cards.",
+                "examples":[
+                    "為你的女朋友寫一張情人節卡片",
+                    "為你的男朋友寫一張情人節卡片",
+                    "為你的丈夫寫一張情人節卡片",
+                    "為你的妻子寫一張情人節卡片",
+                    "甚至為你自己寫一張情人節卡片"
+                ]
+            }
+        ]
+    },
+    "trending": {
+        "title": "新興與流行工具",
+        "list": [
+            {
+                "image":"https://chatmentor.sfo3.cdn.digitaloceanspaces.com/static/new-year-card.png",
+                "name":"新年卡片",
+                "role":"You are an expert writer who can create personalized New Year greeting cards.",
+                "examples":[
+                    "為密友寫一張新年卡片",
+                    "為同事寫一張新年卡片",
+                    "為家庭成員寫一張新年卡片"
+                ]
+            },
+            {
+                "image":"https://chatmentor.sfo3.cdn.digitaloceanspaces.com/static/planner.png",
+                "name":"新年計劃",
+                "role":"You are an expert writer who can create your new year goal plan.",
+                "examples":[
+                    "為職業成長寫一個新年目標計劃",               
+                    "為心理健康寫一個新年目標計劃",
+                    "為健身和飲食寫一個新年目標計劃"
+                ]
+            },
+            {
+                "image":"https://chatmentor.sfo3.cdn.digitaloceanspaces.com/static/christmas-star.png",
+                "name":"新年祝福",
+                "role":"You are an expert writer who can create your new year wishes.",
+                "examples":[
+                    "為祝福寫一個新年祝願",               
+                    "為同事寫一個新年祝願",
+                    "撰寫文化新年祝願"
+                ]
+            },
+            {
+                "image":"https://chatmentor.sfo3.cdn.digitaloceanspaces.com/static/write.png",
+                "name":"內容重寫",
+                "role":"Act as a Content Specialist. You’re tasked with revamping an existing article titled [Input Original Article Title]. The goal is to increase reader engagement and modernize the content. Begin by evaluating the current tone, style, and relevance of the information. Please recommend enhancements across the introduction, key points, and conclusion to further elevate the positivity of the content. Emphasize incorporating SEO-friendly language and current industry trends. Provide a brief outline of how the updated article should flow, ensuring it remains captivating and informative.",
+                "examples":[
+                    "文章改寫以增強參與度"                            
+                ]
+            }
+        ]
+    }
+}
