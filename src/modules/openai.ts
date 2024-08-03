@@ -1,5 +1,5 @@
 import {OpenAI} from 'openai';
-import express, { Request, Response } from 'express'
+import { Request } from 'express'
 
   
 interface ChatGPTMessage {

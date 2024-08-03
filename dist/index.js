@@ -45,13 +45,13 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const openai_1 = require("openai");
 const openai_2 = __importDefault(require("./modules/openai"));
+const auth_1 = __importDefault(require("./modules/auth"));
 const dotenv = __importStar(require("dotenv"));
 dotenv.config();
 const app = (0, express_1.default)();
 const port = process.env.PORT || 3000;
 app.use(express_1.default.json());
 const apiKey = process.env.OPENAI_API_KEY || "";
-console.log(apiKey);
 const openai = new openai_1.OpenAI({
     apiKey: apiKey,
 });
@@ -62,11 +62,11 @@ app.get('/ping', (_req, res) => {
     return res.send('pong 🏓');
 });
 app.post('/chat/streams', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
-    // let auth = checkAuthorization(req);
-    // if (auth.code !== 200) {
-    //     return res.status(401).json(auth);
-    // }
     var e_1, _a;
+    let auth = auth_1.default.checkAuthorization(req);
+    if (auth.code !== 200) {
+        return res.status(401).json(auth);
+    }
     res.writeHead(200, {
         'Content-Type': 'text/event-stream; charset=utf-8',
         'Cache-Control': 'no-cache',
@@ -74,11 +74,10 @@ app.post('/chat/streams', (req, res) => __awaiter(void 0, void 0, void 0, functi
         'Transfer-Encoding': 'chunked'
     });
     let clientConnected = true;
-    // if (typeof auth.data  === 'string') {
-    //   res.end();
-    // }
+    if (typeof auth.data === 'string') {
+        res.end();
+    }
     let transformedArray = openai_2.default.parseReqBody(req);
-    console.log(transformedArray);
     try {
         const completion = yield openai.chat.completions.create({
             model: req.body["model"] || "gpt-3.5-turbo",
@@ -111,7 +110,6 @@ app.post('/chat/streams', (req, res) => __awaiter(void 0, void 0, void 0, functi
         console.error("Error during OpenAI API call:", error);
     }
     req.on('close', () => {
-        console.log("close");
         clientConnected = false;
     });
 }));

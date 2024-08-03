@@ -1,6 +1,7 @@
 import express, { Request, Response } from 'express'
 import {OpenAI} from 'openai';
 import OpenAITools from './modules/openai';
+import AuthTool from './modules/auth';
 import * as dotenv from 'dotenv';
 dotenv.config();
 
@@ -9,7 +10,6 @@ const port = process.env.PORT || 3000
 app.use(express.json());
 
 const apiKey = process.env.OPENAI_API_KEY || "";
-console.log(apiKey);
 const openai = new OpenAI({
     apiKey: apiKey,
 });
@@ -23,10 +23,10 @@ app.get('/ping', (_req: Request, res: Response) => {
 })
 
 app.post('/chat/streams', async (req: Request, res: Response) => {       
-    // let auth = checkAuthorization(req);
-    // if (auth.code !== 200) {
-    //     return res.status(401).json(auth);
-    // }
+    let auth = AuthTool.checkAuthorization(req);
+    if (auth.code !== 200) {
+        return res.status(401).json(auth);
+    }
     
     res.writeHead(200, {
         'Content-Type': 'text/event-stream; charset=utf-8',
@@ -37,13 +37,11 @@ app.post('/chat/streams', async (req: Request, res: Response) => {
     
     let clientConnected = true;    
     
-    // if (typeof auth.data  === 'string') {
-    //   res.end();
-    // }
-
+    if (typeof auth.data  === 'string') {
+      res.end();
+    }
     
-    let transformedArray: OpenAI.Chat.ChatCompletionMessageParam[] = OpenAITools.parseReqBody(req);
-	console.log(transformedArray);
+    let transformedArray: OpenAI.Chat.ChatCompletionMessageParam[] = OpenAITools.parseReqBody(req);	
     
     try {            
       const completion = await openai.chat.completions.create(
@@ -69,8 +67,7 @@ app.post('/chat/streams', async (req: Request, res: Response) => {
         console.error("Error during OpenAI API call:", error);
     }
 
-    req.on('close', () => {
-      console.log("close");
+    req.on('close', () => {      
         clientConnected = false;
     });
 });
