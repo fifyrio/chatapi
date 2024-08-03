@@ -51,6 +51,7 @@ const app = (0, express_1.default)();
 const port = process.env.PORT || 3000;
 app.use(express_1.default.json());
 const apiKey = process.env.OPENAI_API_KEY || "";
+console.log(apiKey);
 const openai = new openai_1.OpenAI({
     apiKey: apiKey,
 });
