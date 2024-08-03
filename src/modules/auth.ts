@@ -20,7 +20,6 @@ interface CustomJwtPayload extends JwtPayload {
   }
 
 const jwtSecret = process.env.JWT_SECRET || "";
-console.log(jwtSecret);
 
 export default class AuthTool {
     static checkAuthorization(req: Request): AuthResponse {

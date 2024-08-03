@@ -30,7 +30,6 @@ const jsonwebtoken_1 = __importDefault(require("jsonwebtoken"));
 const dotenv = __importStar(require("dotenv"));
 dotenv.config();
 const jwtSecret = process.env.JWT_SECRET || "";
-console.log(jwtSecret);
 class AuthTool {
     static checkAuthorization(req) {
         const authHeader = req.headers.authorization;
